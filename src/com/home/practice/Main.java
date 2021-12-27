@@ -15,13 +15,7 @@ class Main {
     }
 
     public static void main(String[] args) {
-        Main m1 =  new Main();
-        Main m2 =  new Main();
-        Main m3 = m1.go(m2);
-        m1 = null;
-        System.out.println(m1);
-        System.out.println(m2);
-        System.out.println(m3);
+        System.out.println("Hello World");
 
     }
 }
